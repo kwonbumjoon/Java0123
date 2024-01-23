@@ -1,7 +1,6 @@
 package ex02;
 
 public class Lottery01 {
-
 	public static void main(String[] args) {
 
 		/* 문자
@@ -23,8 +22,7 @@ public class Lottery01 {
 				{
 					if(arr[j] == arr[k])
 					{	
-						j--;// 배열안의 값이 현재 뽑은 수랑 같은 경우 
-						k--;// 그자리를 다시쓰기 위해 k를 감소
+						j--;// 배열안의 값이 현재 뽑은 수랑 같은 경우 다시 시행
 					}
 				}
 			}
@@ -33,5 +31,4 @@ public class Lottery01 {
 		System.out.println("");	
 		}		
 	}
-
 }
